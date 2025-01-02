@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+   
+</head>
+<body>
+
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#" class="logo">Wood Shaper</a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+             <li><a href="#product">Product</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="orders"><a href="#cart">Order</a></li>
+        </ul>
+        <div class="nav__search" id="nav-search">
+          <input type="text" placeholder="search">
+          <span><i class='bx bx-search' ></i></span>
+        </div>
+       <div class="add__cart">
+        <i class=" bx bx-cart"></i>
+        <span id="count">0</span>
+       </div>
+    </nav>
+
+
+
+    <header class="section__container header__container" id="home">
+        <div class="header__image">
+            <img src="decor1.jpg" alt="header">
+        </div>
+
+        <div class="header__content">
+            <div>
+                <h1>We Help You Make Modern Interior</h1>
+                <p>
+                    We will help you to make an elegant and luxurious interior
+                    by professional interior designer.
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="section__container deals__container">
+        <div class="deals__card">
+            <h2 class="section__header"> Hot 🔥 deals for you</h2>
+            <p>Online shopping retail sales direct to consumers</p>
+        </div>
+
+        <div class="deals__card">
+            <span><i class='bx bx-money'></i></span>
+            <h4>1.5% Cashback</h4>
+            <p>Earn a 5% cashback reward on every furniture purchase you make !</p>
+        </div>
+        <div class="deals__card">
+            <span><i class='bx bx-calendar-event' ></i></i></span>
+            <h4>30 day terms</h4>
+            <p>Take advantage of our 30-day payment terms, completely interest-free !</p>
+        </div>
+        <div class="deals__card">
+            <span><i class='bx bx-rupee' ></i></span>
+            <h4>Save money</h4>
+            <p>Discover unbeatable prices and save big money on top-quality furniture</p>
+        </div>
+    </section>
+
+   <section class="section__container about__container" id="about">
+    <div class="about__header">
+        <div>
+            <h2 class="section__header">About us</h2>
+            <p class="section__description">
+                Our passion for exceptional craftsmanship drives us to curate the best pieces for every room in your house
+            </p>
+        </div>
+
+        <button class="about__btn">
+            Learn More
+        </button>
+    </div>
+    <div class="about__content">
+        <div class="about__image">
+            <img src="about.jpg" alt="about">
+        </div>
+
+        <div  class="about__grid">
+           <div class="about__card">
+            <h3>1.</h3>
+            <h4>Who are we</h4>
+            <p>
+                You get a 2-week free trail to kick the smaert tries we want you to.
+            </p>
+           </div>
+
+
+           <div class="about__card">
+            <h3>2.</h3>
+            <h4>What do we do</h4>
+            <p>
+                We give you a free course that guides you through the process.
+            </p>
+           </div>
+
+
+           <div class="about__card">
+            <h3>3.</h3>
+            <h4>How do we help</h4>
+            <p>
+                Use our multimedis lectures, videos, and coaching sessions.
+            </p>
+           </div>
+
+
+           <div class="about__card">
+            <h3>4.</h3>
+            <h4>Create success story</h4>
+            <p>
+               With access to online learning resources any can transform.
+            </p>
+        </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="section__container product__container" id="product">
+    <h2 class="section__header">Products</h2>
+    <div class="product__grid" id="grid">
+    </div>
+   </section>
+
+
+   <section class="order">
+    <div class="cart__tab" id="order">
+        <h1>Shopping cart</h1>
+        <div class="list__cart" id="list__cart">
+            <div class="item"></div>
+        </div>
+
+        <div class="foot">
+            <div class="totals">
+                <h3>Total</h3>
+                <h3 id="total">Rs 0.00</h3>
+            </div>
+
+            <div class="btn__2">
+                <div class="close">Close</div>
+               <a href="checkout.html"> <div class="check__out" id="check__out">Check out</div></a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+
+
+  <section class="section__container client__container">
+     <div class="client__content">
+        <h2 class="section__header">What our happy client say </h2>
+        <p class="section__description">
+            Testimonials Highlighting Our Commitment to Quality, Exceptional Service, and Customer Satisfaction
+        </p>
+
+
+    
+   <div class="swiper">
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="client__card">
+                <img src="user1.jpg" alt="">
+                <div>
+                    <p>
+                        Home Decor transformed my living space with their beautiful and affordable furniture. The 5% cashback was a delightful bonus!
+                    </p>
+                    <h4>David jonas</h4>
+                    <h5>Real Estate Agent</h5>
+                </div>
+            </div>
+        </div>
+
+             <div class="swiper-slide">
+                 <div class="client__card">
+                     <img src="user2.jpg" alt="">
+                     <div>
+                         <p>
+                            Exceptional quality and servicel The furniture is stunning, and the 30-day payment terms made it incredibly convenient.
+                         </p>
+                         <h4> Sarah </h4>
+                         <h5>Interior Designer</h5>
+                     </div>
+                 </div>
+             </div>
+
+
+                 <div class="swiper-slide">
+                     <div class="client__card">
+                         <img src="user3.jpg" alt="">
+                         <div>
+                             <p>
+                                The 30-day terms made it easy for us to furnish our new home without financial stress. Highly recommended!
+                             </p>
+                             <h4>John</h4>
+                             <h5>Enterpreneur</h5>
+                         </div>
+                     </div>
+                 </div>
+      </div>
+    </div>
+   </div>
+  </section>
+
+
+<footer>
+    <div class="section__container footer__container" id="contact">
+        <div class="footer__col">
+            <div class="footer__logo">
+                <a href="#" class="logo">Wood Shaper</a>
+            </div>
+            <p>
+                Join us in transforming your living spaces with furniture that blends elegance and practicality seamlessly.
+            </p>
+            <ul class="footer__socials">
+                <li>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                </li>
+            </ul>
+        </div>
+        <div  class="footer__col">
+            <h4>Services</h4>
+            <ul class="footer__links">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Payrol</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+        </div>
+        <div  class="footer__col">
+            <h4>Resources</h4>
+            <ul class="footer__links">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact support</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+        <div class="footer__col">
+             <h4>Support</h4>
+             <ul class="footer__links">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Cancelation Policy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
